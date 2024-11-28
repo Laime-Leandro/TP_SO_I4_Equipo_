@@ -1,0 +1,36 @@
+A- ¿Qué color de fondo tiene su página en el TESTING ?
+El color que quedo en el TESTING quedo blue
+
+
+B- ¿Qué color de fondo tiene su página en el DESARROLLO ?
+El color que quedo en el DESARROLLO es yellow
+
+
+C- ¿Qué color de fondo tiene su página en el MASTER?
+El color que quedo en el DESARROLLO es yellow
+
+D- ¿Qué favicon quedó en el MASTER el de ALFA o el de BETA?
+El color que quedo en el favicon es yellow
+
+
+Pregunta:
+E- ¿Algún integrante tuvo problemas al hacer el push?
+Alfa no, pero Beta si 
+
+
+F- ¿Qué problemas surgieron?
+Habian modificaciones en las dos ramas.
+
+G- ¿Qué soluciones pueden aplicar y cual seria la consecuencia de cada solución
+adoptada?
+Beta hizo un commit y despues hizo un merge de las dos modificaciones con el siguiente comando: git config pull.rebase false
+ahi logro hacer el git pull y despues se logro pushear.
+
+
+H- ¿Qué sucede si cada uno utiliza el push -f?
+push -f sobreescribe los cambios de manera forzada
+
+
+I- ¿Qué debo hacer para que el index.html tengas todos los <p> de los puntos 18,19 y 20
+en DESARROLLO ?
+tener que hacer un checkout para moverte a la rama desarrollo, y hacer un merge de TESTING
